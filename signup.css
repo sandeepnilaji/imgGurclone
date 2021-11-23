@@ -1,0 +1,69 @@
+* {
+  background-color: #141518;
+}
+.logo {
+  display: flex;
+  margin-top: 40px;
+}
+#homereturn {
+  color: white;
+  margin-left: 10px;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+.mainlogo {
+  text-align: center;
+  margin-top: 25px;
+}
+.sbox {
+  width: 25%;
+  margin: auto;
+  margin-top: 130px;
+  background-color: #414346;
+  padding: 1.5%;
+  border-radius: 5px;
+}
+#email {
+  width: 98%;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  outline: #1bb76e;
+  color: white;
+}
+.password {
+  width: 98%;
+  border: none;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: white;
+}
+#email:focus,
+.password:focus {
+  outline: 1px solid #1bb76e;
+}
+.sbox2 {
+  width: 28%;
+  padding-top: 1%;
+  margin: auto;
+  background: transparent;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.signupbtn {
+  height: 50px;
+  color: white;
+  width: 25%;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  border: none;
+  background-color: #5c69ff;
+}
+.signuplink {
+  color: white;
+  font-size: 1.1rem;
+  margin-right: 15px;
+  margin-top: 15px;
+  background: transparent;
+}

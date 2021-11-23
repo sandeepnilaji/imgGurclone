@@ -1,0 +1,119 @@
+.navbar {
+  /* border: 1px solid black; */
+  display: flex;
+  /* height: 50px; */
+  gap: 3%;
+  padding-top: 1%;
+}
+.ex {
+  display: flex;
+  /* height: 50px; */
+  gap: 3%;
+  padding-top: 1%;
+}
+/* background rgb(29,23,75) */
+input {
+  width: 40vw;
+  height: 35px;
+  margin-left: 10vw;
+  margin-right: 7vw;
+}
+input:focus {
+  outline: none;
+
+  /* border: none; */
+}
+.btngrp {
+  background-color: rgb(27, 183, 110);
+  color: white;
+  font-weight: 600;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+}
+.explore {
+  display: flex;
+  gap: 0.7%;
+}
+.small_box {
+  width: 8vw;
+  border: 1px solid black;
+}
+.s_1 {
+  height: 5vw;
+  border: 1px solid black;
+}
+.explore_hidden {
+  margin-top: 1vw;
+  display: flex;
+  gap: 0.7%;
+  margin-left: 5vw;
+}
+.mostviral {
+  background-color: rgb(46, 48, 53);
+  /* height: 400px; */
+}
+select {
+  background: none;
+  height: 2vw;
+  background-color: rgb(46, 48, 53);
+  width: 9vw;
+  color: azure;
+}
+.drop {
+  margin-left: 5vw;
+  display: flex;
+  gap: 60vw;
+  padding: 2%;
+}
+.showing {
+  border: 1px solid white;
+  width: 17vw;
+  height: 20vw;
+  margin-bottom: 16px;
+  border-radius: 2%;
+}
+.showing img {
+  width: 100%;
+}
+.show_grid {
+  display: flex;
+  gap: 2%;
+  margin: auto;
+  /* row-gap: 3%; */
+}
+/* .ticketsbox {
+  display: none;
+} */
+.droplist {
+  box-sizing: border-box;
+  color: #b4b9c2;
+  cursor: pointer;
+  display: block;
+  line-height: 2.14;
+  letter-spacing: 1px;
+  width: auto;
+  padding-left: 18px;
+  padding-right: 26px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.point_cursor {
+  cursor: pointer;
+}
+.p_color {
+  color: white;
+  font-weight: 400;
+}
+
+.search_drop {
+  /* border: 1px solid black; */
+  margin-left: 27vw;
+  width: 40.8vw;
+  background-color: rgb(60, 66, 75);
+  color: white;
+  border-radius: 2%;
+  z-index: 1;
+  position: absolute;
+}

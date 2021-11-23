@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link />
+  </head>
+  <body>
+    <!-- nav starts -->
+    <div
+      style="
+        background-image: url('https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png');
+      "
+    >
+      <div class="navbar">
+        <div style="margin-top: 0px; color: white">
+          <h1 style="margin-top: 0px">Imgur</h1>
+        </div>
+        <div style="margin-top: 5px">
+          <button class="btngrp">NewPost</button>
+        </div>
+        <div>
+          <input
+            placeholder="Images,#tags,@users oh my!"
+            id="in"
+            oninput="throttle()"
+          />
+        </div>
+        <div style="margin-top: 5px">
+          <button class="btngrp" style="background-color: rgb(100, 50, 249)">
+            GoAdfree
+          </button>
+        </div>
+        <div style="margin-top: 5px">
+          <a href="./signin.html"
+            ><button
+              style="
+                background-color: white;
+                border: none;
+                height: 35px;
+                font-weight: 600;
+                cursor: pointer;
+              "
+            >
+              Signin
+            </button></a
+          >
+        </div>
+        <div style="margin-top: 5px">
+          <a href="./signup.html"> <button class="btngrp">signUp</button></a>
+        </div>
+      </div>
+      <div class="search_drop" id="search_display"></div>
+
+      <!-- nav ends -->
+      <h2
+        style="
+          text-align: center;
+          color: rgb(142, 154, 155);
+          position: relative;
+        "
+      >
+        This site kills boredom.
+      </h2>
+      <div class="ex">
+        <div style="margin-left: 6vw; color: rgb(142, 154, 155)">
+          <h4>Explore Tags</h4>
+        </div>
+        <div
+          style="
+            margin-left: 70vw;
+            color: rgb(142, 154, 155);
+            cursor: pointer;
+            margin-top: 10px;
+          "
+          id="hide"
+        >
+          MORE TAGS +
+        </div>
+      </div>
+      <!-- explore strt -->
+      <div class="explore">
+        <div
+          style="
+            width: 16.8vw;
+
+            color: blanchedalmond;
+            margin-left: 5vw;
+          "
+        >
+          <div style="height: 5vw">
+            <img
+              src="https://th.bing.com/th/id/R.f554692f238ef4f9b24a0458898d9925?rik=z%2f4lsWQdTKF2Eg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2flrr6Br6.jpg&ehk=o0opyWQWr1%2bbUfzb6rrSBuYQhx7L8kezEeM59pF7TSs%3d&risl=&pid=ImgRaw&r=0"
+              width="100%"
+              height="70px"
+            />
+          </div>
+          <div
+            style="
+              height: 5vw;
+
+              background-color: rgb(32, 132, 176);
+              color: white;
+              text-align: center;
+              padding-top: 1%;
+            "
+          >
+            Movies and Tv <br />
+            Featured •61.419 Posts
+          </div>
+        </div>
+        <div class="small_box">
+          <!--  -->
+          <div class="s_1">
+            <img
+              src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+              alt="Girl in a jacket"
+              width="100%"
+            />
+          </div>
+          <div
+            class="s_1"
+            style="
+              background-color: rgb(30, 95, 67);
+              text-align: center;
+              color: blanchedalmond;
+            "
+          >
+            Metal <br />
+            5636 posts
+          </div>
+          <!--  -->
+        </div>
+        <div class="small_box">
+          <div class="s_1">
+            <img
+              src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+              alt="Girl in a jacket"
+              width="100%"
+            />
+          </div>
+          <div
+            class="s_1"
+            style="
+              background-color: rgb(30, 95, 67);
+              text-align: center;
+              color: blanchedalmond;
+            "
+          >
+            Metal <br />
+            5636 posts
+          </div>
+        </div>
+        <div class="small_box">
+          <div class="s_1">
+            <img
+              src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+              alt="Girl in a jacket"
+              width="100%"
+            />
+          </div>
+          <div
+            class="s_1"
+            style="
+              background-color: rgb(30, 95, 67);
+              text-align: center;
+              color: blanchedalmond;
+            "
+          >
+            Metal <br />
+            5636 posts
+          </div>
+        </div>
+        <div class="small_box">
+          <div class="s_1">
+            <img
+              src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+              alt="Girl in a jacket"
+              width="100%"
+            />
+          </div>
+          <div
+            class="s_1"
+            style="
+              background-color: rgb(30, 95, 67);
+              text-align: center;
+              color: blanchedalmond;
+            "
+          >
+            Metal <br />
+            5636 posts
+          </div>
+        </div>
+        <div class="small_box">
+          <div class="s_1">
+            <img
+              src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+              alt="Girl in a jacket"
+              width="100%"
+            />
+          </div>
+          <div
+            class="s_1"
+            style="
+              background-color: rgb(30, 95, 67);
+              text-align: center;
+              color: blanchedalmond;
+            "
+          >
+            Metal <br />
+            5636 posts
+          </div>
+        </div>
+        <div class="small_box">
+          <div class="s_1">
+            <img
+              src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+              alt="Girl in a jacket"
+              width="100%"
+            />
+          </div>
+          <div
+            class="s_1"
+            style="
+              background-color: rgb(30, 95, 67);
+              text-align: center;
+              color: blanchedalmond;
+            "
+          >
+            Metal <br />
+            5636 posts
+          </div>
+        </div>
+        <div class="small_box">
+          <div class="s_1">
+            <img
+              src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+              alt="Girl in a jacket"
+              width="100%"
+            />
+          </div>
+          <div
+            class="s_1"
+            style="
+              background-color: rgb(30, 95, 67);
+              text-align: center;
+              color: blanchedalmond;
+            "
+          >
+            Metal <br />
+            5636 posts
+          </div>
+        </div>
+        <div class="small_box">
+          <div class="s_1">
+            <img
+              src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+              alt="Girl in a jacket"
+              width="100%"
+            />
+          </div>
+          <div
+            class="s_1"
+            style="
+              background-color: rgb(30, 95, 67);
+              text-align: center;
+              color: blanchedalmond;
+            "
+          >
+            Metal <br />
+            5636 posts
+          </div>
+        </div>
+      </div>
+      <div id="ticketsbox" style="display: none">
+        <div class="explore_hidden">
+          <div class="small_box">
+            <div class="s_1">
+              <img
+                src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+                alt="Girl in a jacket"
+                width="100%"
+              />
+            </div>
+            <div
+              class="s_1"
+              style="
+                background-color: rgb(30, 95, 67);
+                text-align: center;
+                color: blanchedalmond;
+              "
+            >
+              Metal <br />
+              5636 posts
+            </div>
+          </div>
+          <div class="small_box">
+            <div class="s_1">
+              <img
+                src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+                alt="Girl in a jacket"
+                width="100%"
+              />
+            </div>
+            <div
+              class="s_1"
+              style="
+                background-color: rgb(30, 95, 67);
+                text-align: center;
+                color: blanchedalmond;
+              "
+            >
+              Metal <br />
+              5636 posts
+            </div>
+          </div>
+          <div class="small_box">
+            <div class="s_1">
+              <img
+                src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+                alt="Girl in a jacket"
+                width="100%"
+              />
+            </div>
+            <div
+              class="s_1"
+              style="
+                background-color: rgb(30, 95, 67);
+                text-align: center;
+                color: blanchedalmond;
+              "
+            >
+              Metal <br />
+              5636 posts
+            </div>
+          </div>
+          <div class="small_box">
+            <div class="s_1">
+              <img
+                src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+                alt="Girl in a jacket"
+                width="100%"
+              />
+            </div>
+            <div
+              class="s_1"
+              style="
+                background-color: rgb(30, 95, 67);
+                text-align: center;
+                color: blanchedalmond;
+              "
+            >
+              Metal <br />
+              5636 posts
+            </div>
+          </div>
+          <div class="small_box">
+            <div class="s_1">
+              <img
+                src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+                alt="Girl in a jacket"
+                width="100%"
+              />
+            </div>
+            <div
+              class="s_1"
+              style="
+                background-color: rgb(30, 95, 67);
+                text-align: center;
+                color: blanchedalmond;
+              "
+            >
+              Metal <br />
+              5636 posts
+            </div>
+          </div>
+          <div class="small_box">
+            <div class="s_1">
+              <img
+                src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+                alt="Girl in a jacket"
+                width="100%"
+              />
+            </div>
+            <div
+              class="s_1"
+              style="
+                background-color: rgb(30, 95, 67);
+                text-align: center;
+                color: blanchedalmond;
+              "
+            >
+              Metal <br />
+              5636 posts
+            </div>
+          </div>
+          <div class="small_box">
+            <div class="s_1">
+              <img
+                src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+                alt="Girl in a jacket"
+                width="100%"
+              />
+            </div>
+            <div
+              class="s_1"
+              style="
+                background-color: rgb(30, 95, 67);
+                text-align: center;
+                color: blanchedalmond;
+              "
+            >
+              Metal <br />
+              5636 posts
+            </div>
+          </div>
+          <div class="small_box">
+            <div class="s_1">
+              <img
+                src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+                alt="Girl in a jacket"
+                width="100%"
+              />
+            </div>
+            <div
+              class="s_1"
+              style="
+                background-color: rgb(30, 95, 67);
+                text-align: center;
+                color: blanchedalmond;
+              "
+            >
+              Metal <br />
+              5636 posts
+            </div>
+          </div>
+          <div class="small_box">
+            <div class="s_1">
+              <img
+                src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+                alt="Girl in a jacket"
+                width="100%"
+              />
+            </div>
+            <div
+              class="s_1"
+              style="
+                background-color: rgb(30, 95, 67);
+                text-align: center;
+                color: blanchedalmond;
+              "
+            >
+              Metal <br />
+              5636 posts
+            </div>
+          </div>
+          <div class="small_box">
+            <div class="s_1">
+              <img
+                src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+                alt="Girl in a jacket"
+                width="100%"
+              />
+            </div>
+            <div
+              class="s_1"
+              style="
+                background-color: rgb(30, 95, 67);
+                text-align: center;
+                color: blanchedalmond;
+              "
+            >
+              Metal <br />
+              5636 posts
+            </div>
+          </div>
+        </div>
+        <div class="explore_hidden">
+          <div class="small_box">
+            <div class="s_1">
+              <img
+                src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+                alt="Girl in a jacket"
+                width="100%"
+              />
+            </div>
+            <div
+              class="s_1"
+              style="
+                background-color: rgb(30, 95, 67);
+                text-align: center;
+                color: blanchedalmond;
+              "
+            >
+              Metal <br />
+              5636 posts
+            </div>
+          </div>
+          <div class="small_box">
+            <div class="s_1">
+              <img
+                src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+                alt="Girl in a jacket"
+                width="100%"
+              />
+            </div>
+            <div
+              class="s_1"
+              style="
+                background-color: rgb(30, 95, 67);
+                text-align: center;
+                color: blanchedalmond;
+              "
+            >
+              Metal <br />
+              5636 posts
+            </div>
+          </div>
+          <div class="small_box">
+            <div class="s_1">
+              <img
+                src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+                alt="Girl in a jacket"
+                width="100%"
+              />
+            </div>
+            <div
+              class="s_1"
+              style="
+                background-color: rgb(30, 95, 67);
+                text-align: center;
+                color: blanchedalmond;
+              "
+            >
+              Metal <br />
+              5636 posts
+            </div>
+          </div>
+          <div class="small_box">
+            <div class="s_1">
+              <img
+                src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+                alt="Girl in a jacket"
+                width="100%"
+              />
+            </div>
+            <div
+              class="s_1"
+              style="
+                background-color: rgb(30, 95, 67);
+                text-align: center;
+                color: blanchedalmond;
+              "
+            >
+              Metal <br />
+              5636 posts
+            </div>
+          </div>
+          <div class="small_box">
+            <div class="s_1">
+              <img
+                src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+                alt="Girl in a jacket"
+                width="100%"
+              />
+            </div>
+            <div
+              class="s_1"
+              style="
+                background-color: rgb(30, 95, 67);
+                text-align: center;
+                color: blanchedalmond;
+              "
+            >
+              Metal <br />
+              5636 posts
+            </div>
+          </div>
+          <div class="small_box">
+            <div class="s_1">
+              <img
+                src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+                alt="Girl in a jacket"
+                width="100%"
+              />
+            </div>
+            <div
+              class="s_1"
+              style="
+                background-color: rgb(30, 95, 67);
+                text-align: center;
+                color: blanchedalmond;
+              "
+            >
+              Metal <br />
+              5636 posts
+            </div>
+          </div>
+          <div class="small_box">
+            <div class="s_1">
+              <img
+                src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+                alt="Girl in a jacket"
+                width="100%"
+              />
+            </div>
+            <div
+              class="s_1"
+              style="
+                background-color: rgb(30, 95, 67);
+                text-align: center;
+                color: blanchedalmond;
+              "
+            >
+              Metal <br />
+              5636 posts
+            </div>
+          </div>
+          <div class="small_box">
+            <div class="s_1">
+              <img
+                src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+                alt="Girl in a jacket"
+                width="100%"
+              />
+            </div>
+            <div
+              class="s_1"
+              style="
+                background-color: rgb(30, 95, 67);
+                text-align: center;
+                color: blanchedalmond;
+              "
+            >
+              Metal <br />
+              5636 posts
+            </div>
+          </div>
+          <div class="small_box">
+            <div class="s_1">
+              <img
+                src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+                alt="Girl in a jacket"
+                width="100%"
+              />
+            </div>
+            <div
+              class="s_1"
+              style="
+                background-color: rgb(30, 95, 67);
+                text-align: center;
+                color: blanchedalmond;
+              "
+            >
+              Metal <br />
+              5636 posts
+            </div>
+          </div>
+          <div class="small_box">
+            <div class="s_1">
+              <img
+                src="https://th.bing.com/th/id/OIP.KO9VwlWiqKSkzyz-v44FuQHaEo?pid=ImgDet&rs=1"
+                alt="Girl in a jacket"
+                width="100%"
+              />
+            </div>
+            <div
+              class="s_1"
+              style="
+                background-color: rgb(30, 95, 67);
+                text-align: center;
+                color: blanchedalmond;
+              "
+            >
+              Metal <br />
+              5636 posts
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  explore ends  -->
+    </div>
+    <div class="mostviral" class="point_cursor">
+      <div class="drop" class="point_cursor">
+        <div class="drop_list" class="point_cursor">
+          <select name="cars" class="point_cursor" onchange="show(value)">
+            <option value="Most Viral" class="point_cursor" id="most_v">
+              Most Viral
+            </option>
+            <option value="User Submited" class="point_cursor" id="user_s">
+              User Submited
+            </option>
+            <option value="Highest Scoring" class="point_cursor" id="High_s">
+              Highest Scoring
+            </option>
+          </select>
+        </div>
+        <div class="drop_list" class="point_cursor">
+          <select name="cars" class="point_cursor">
+            <option value="Popular" class="point_cursor">Popular</option>
+            <option value="Newest" class="point_cursor">Newest</option>
+            <option value="Best" class="point_cursor">Best</option>
+            <option value="Random" class="point_cursor">Random</option>
+          </select>
+        </div>
+      </div>
+      <div class="show_grid" style="max-width: 80%; margin: auto">
+        <div
+          id="most"
+          style="display: flex; flex-wrap: wrap; gap: 1%; margin: auto"
+        ></div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="index.js"></script>
+<!-- https://pixabay.com/api/?key=24387257-d23fa59c127d4896f1bebb1b3&q=yellow+flowers&image_type=photo&pretty=true -->
